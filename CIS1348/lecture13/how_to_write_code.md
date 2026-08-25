@@ -201,9 +201,9 @@ The time you spend verifying as you go is far less than the time you would spend
 
 ## 4. How to Verify Correctness by Random Sampling
 
-When you print or inspect output, **do not check in a predictable pattern**. Do not look at the first few entries. Do not look at the last ones. Do not look at the middle. Pick entries **at random**.
+Always verify boundary and edge cases - the first entry, the last entry, nulls, and extreme values. Once the usual suspects and edge cases are verified - do not inspect the remaining data in a predictable pattern (like only checking the top few rows). Pick internal entries at random. Do not look at the first few entries. Do not look at the last ones. Do not look at the middle. Pick entries at random. 
 
-Here is why: some bugs only reveal themselves in certain positions. Structured errors can hide at the beginning, the end, or in specific patterns. If you always check the same spots, you can miss them entirely. Random sampling breaks this — the more random entries you check, the lower the chance that they all happen to look correct while the code is actually buggy.
+Here is why: Random sampling across the remaining body ensures unbiased coverage. Some bugs only reveal themselves in certain positions. Structured errors can hide at the beginning, the end, or in specific patterns. If you always check the same spots, you can miss them entirely. Random sampling breaks this — the more random entries you check, the lower the chance that they all happen to look correct while the code is actually buggy.
 
 **Practical technique:**
 - Run the code, see the full output
