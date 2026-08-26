@@ -51,7 +51,7 @@ Chat agents are excellent learning tools. You can use them to:
 Chat agents respond to your questions but don't directly modify your files.
 
 #### ❌ Coding Agents (STRICTLY FORBIDDEN)
-**Examples:** GitHub Copilot, Claude Code, GitHub Codex, Cursor AI, etc.
+**Examples:** GitHub Copilot, Claude Code, OpenAI Codex, Cursor AI, Google Antigravity etc.
 
 Coding agents are prohibited, they:
 - Automatically create and modify files
