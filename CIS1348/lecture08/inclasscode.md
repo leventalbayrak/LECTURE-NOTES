@@ -8,7 +8,7 @@
 
 ## Example 1: Parallel Arrays and Battle Simulation
 
-**File:** [e1.py](e1.py)
+**File:** [e1.py](code/e1.py)
 
 ```python
 name = ["gengar", "pikachu", "wailord", "lucario", "bulbasaur"]
@@ -47,7 +47,7 @@ for line in lines:
 
 ## Example 2: String Slicing and Secret Message Extraction
 
-**File:** [e2.py](e2.py)
+**File:** [e2.py](code/e2.py)
 
 ```python
 file = open("mydiary.txt", "r")
@@ -78,7 +78,7 @@ file.close()
 
 ## Example 3: Parsing Structured Log Files
 
-**File:** [e3.py](e3.py)
+**File:** [e3.py](code/e3.py)
 
 ```python
 file = open("log.log", "r")
@@ -106,7 +106,7 @@ for line in lines:
 
 ## Example 4: Bulk File Generation with Random Data
 
-**File:** [e4.py](e4.py)
+**File:** [e4.py](code/e4.py)
 
 ```python
 import random
@@ -149,7 +149,7 @@ for i in range(100000):
 
 ## Example 5: Arrays as Lookup Tables for Battle Logs
 
-**File:** [e5.py](e5.py)
+**File:** [e5.py](code/e5.py)
 
 ```python
 names = [0]*4
